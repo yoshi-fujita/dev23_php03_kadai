@@ -11,7 +11,7 @@
 - MySQLのテーブルを４つ作って組み合わせて利用している
 - ３つのテーブルで管理している項目は、追加した項目が選択肢として読み込まれて表示されるようにした
 - 一覧の画像クリックでLightbox表示するようにした
-- 削除にconfirmを入れた（参考：　https://www.sejuku.net/blog/81083　）
+- 削除にconfirmを入れた（参考：https://www.sejuku.net/blog/81083）
 
 ## ③ 質問・疑問（あれば）
 - PHPでoptionのvalueを書くときに、$state_selection .= '<option value=募集中 selected>募集中</option>'; というように、「募集中」のダブルクウォートを外さないと動かなかったが、それがなぜだか分からない
