@@ -72,7 +72,7 @@ if ($status === false) {
         <form action="index.php" method="post">
             <div class="form_entry">
                 <p>写真</p>
-                <img src="<?= $photo ?>" width="232" height="174" alt="登録するアイテムの画像">
+                <img src="<?= $photo ?>" width="232" alt="登録するアイテムの画像">
                 <input type="hidden" name="photo" value="<?= $photo ?>">
             </div>
             <div class="form_entry">

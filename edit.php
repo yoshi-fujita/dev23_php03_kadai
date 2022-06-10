@@ -131,7 +131,7 @@ if ( $state === "募集中" ) {
             <input type="hidden" name="item_id" value="<?= $item_id ?>">
             <div class="form_entry">
                 <p>写真</p>
-                <img src="<?= $photo ?>" width="232" height="174" alt="登録するアイテムの画像">
+                <img src="<?= $photo ?>" width="232" alt="登録するアイテムの画像">
                 <input type="hidden" name="photo" value="<?= $photo ?>">
             </div>
             <div class="form_entry">
